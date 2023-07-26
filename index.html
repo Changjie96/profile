@@ -1,36 +1,135 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OnlyMe</title>
-  <meta name="description" content="My Profile">
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&family=Noto+Sans+SC:wght@100&family=Overpass:wght@100&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
-</head>
-<body>
-  <div class="container">
-    <div class="card">
-      <h1>Yo! I'm 昌结 </h1>
-      <img src="../images/me.jfif" alt="cj's picture">
-      <p>I hate coding!</p>
-      <a href="https://www.facebook.com/chang.jie.79/">Dont click!</a>
-    </div>
-    <div class="card">
-      <ul>
-        <li><a href="https://www.facebook.com/DonaldTrump"><i class="fa-brands fa-facebook-f"></i></a></li>
-        <li><a href="https://giphy.com/gifs/donald-trump-justin-gammon-2020-lT4N7JiPGATIhVwR91"><i class="fa-brands fa-github"></i></a></li>
-        <li><a href="https://www.youtube.com/watch?v=2n5GKLdrTfk"><i class="fa-brands fa-medium"></i></a></li>
-      </ul>
-    </div>
-    <div class="card">
-      <p>For financial freedom, click the link below!</p>
-      <a href="https://www.singaporepools.com.sg/landing/en/Pages/index.html">Register Your Acc Now</a>
-    </div>
-  </div>
-</body>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter:wght@200;300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+        <meta name="description" content="My Profile">
+        <script src="index.js"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <body>
+       <div class="initial">
+          <img id="avatar" src="avatar.png"/>
+          <h2>Hi, I am Tan Chang Jie!</h2>
+            <div class="contact-lists">
+              <a href="https://www.facebook.com/chang.jie.79/"><i class="fa-brands fa-facebook" style="color: #000000;"></i></a>
+              <a href="https://github.com/Changjie96"><i class="fa-brands fa-github" style="color: #000000;"></i></a>
+              <a href="https://www.linkedin.com/in/chang-jie-tan/"><i class="fa-brands fa-linkedin" style="color: #000000;"></i></a>
+            </div>
+       </div>
+       <div class="project">
+          <h1>PROJECTS</h1>
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="homepage.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="3d.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="wishlist.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+       </div>
+       <div class="experience d-flex">
+          <section class="first">
+              <div class="container">
+                <h1>SKILLS</h1>
+                <ul class="skills">
+                  <li>Ruby  <img src="icon/ruby.png"/></li>
+                  <li>Ruby on Rails  <img src="icon/ruby.png"/></li>
+                  <li>HTML5  <img src="icon/html.png"/></li>
+                  <li>CSS  <img src="icon/css.png"/></li>
+                  <li>Javascript  <img src="icon/javascript.png"/></li>
+                  <li>React  <img src="icon/react.png"/></li>
+                  <li>Python  <img src="icon/python.png"/></li>
+                  <li>C</li>
+                  <li>SQL <img src="icon/sql.png"/></li>
+                </ul>
+              </div>
+          </section>
+          <div class="separator"></div>
+          <section class="second">
+            <div class="container">
+              <h1>EXPERIENCE</h1>
+              <div id="experience-table">
+                <div class="tr">
+                  <span class="td-year">July 2022 - March 2023</span>
+                  <span class="td-position"><b>Assistant Design Manager</b></span>
+                  <span class="td-company">RVD</span>
+                  <span class="td-expand"><img class="expand-btn" src="https://uploads-ssl.webflow.com/5b54e064ef1d588c6d4a4264/62642abf5db7f5d0e68a9966_plus.svg"/></span>
+                </div>
+                <div class="hidden">
+                  <ul class="job-description">
+                    <li>Led the design team to develop innovative precast solutions to reduce construction time.</li>
+                    <li>
+                      Enhanced efficiency by implementing standardized design guidelines and templates, streamlining design processes.
+                    </li>
+                    <li>
+                      Led over 10 design projects, ensuring meticulous planning of project flow and product quality.
+                    </li>
+                  </ul>
+                </div>
+                <div class="tr">
+                  <span class="td-year">July 2021 - June 2022</span>
+                  <span class="td-position"><b>Senior Design Engineer</b></span>
+                  <span class="td-company">RVD</span>
+                  <span class="td-expand"><img class="expand-btn" src="https://uploads-ssl.webflow.com/5b54e064ef1d588c6d4a4264/62642abf5db7f5d0e68a9966_plus.svg"/></span>
+                </div>
+                <div class="hidden">
+                  <ul class="job-description">
+                    <li>
+                      Provided guidance to junior design engineers on precast connection details.
+                    </li>
+                    <li>
+                      Monitored the design and production teams to meet project deadlines.
+                    </li>
+                  </ul>
+                </div>
+                <div class="tr">
+                  <span class="td-year">July 2019 - June 2021</span>
+                  <span class="td-position"><b>Design Engineer</b></span>
+                  <span class="td-company">RVD</span>
+                  <span class="td-expand"><img class="expand-btn" src="https://uploads-ssl.webflow.com/5b54e064ef1d588c6d4a4264/62642abf5db7f5d0e68a9966_plus.svg"/></span>
+                </div>
+                <div class="hidden hidden-last">
+                  <ul class="job-description">
+                    <li>
+                      Led a team of 5 drafters to produce precast element drawings.
+                    </li>
+                    <li>
+                      Coordinated between design team, construction site and production team on design issues.
+                    </li>
+                    <li>
+                      Designed precast connections for structural and non-structural elements.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+       </div>
+    </body>
 </html>
