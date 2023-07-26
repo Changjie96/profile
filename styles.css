@@ -1,0 +1,215 @@
+html {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Indie Flower', cursive;
+  color: #213555;
+}
+
+.initial, .project {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.initial {
+  background-color: #F2EE9D;
+}
+
+.project {
+  font-family: 'Inter', sans-serif;
+  background-color: #E8FFCE;
+}
+
+.experience {
+  font-family: 'Inter', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: #AAC8A7;
+}
+
+#avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  transition: 2s;
+}
+
+h2 {
+  margin-top: 32px;
+}
+
+.contact-lists {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: nowrap;
+  bottom: 80px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  align-items: center;
+  height: 80px;
+}
+
+.contact-lists > a {
+  list-style: none;
+  font-size: 32px;
+  transition: 0.1s;
+  width: 6%;
+}
+
+.contact-lists a:hover {
+  font-size: 60px;
+}
+
+
+.carousel {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+}
+
+section.first {
+  width: 45vw;
+  background-color: #C3EDC0;
+  position: relative;
+}
+
+section.second {
+  position: relative;
+}
+
+.separator {
+  width: 0;
+  height: 0;
+  border-bottom: 100vh solid transparent;
+  border-left: 13.9vh solid #C3EDC0;
+}
+
+.second div h1 {
+  text-shadow: 2px 2px #ff0000;
+  font-size: 60px;
+  position: absolute;
+  bottom: 10%;
+  right: -45vw;
+}
+
+.first div h1 {
+  text-shadow: 2px 2px #ff0000;
+  font-size: 60px;
+  position: absolute;
+  top: 10%;
+  left: 5vw;
+}
+
+.first div ul {
+  font-size: 32px;
+  font-weight: 500;
+  position: absolute;
+  top: 25%;
+  left: 7vw;
+}
+
+#experience-table {
+  position: absolute;
+  top: 25%;
+  right: -45vw;
+  width: 40vw;
+}
+
+.tr {
+  width: 100%;
+  font-size: 16px;
+  border-style: ridge;
+  background-color: white;
+  border-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.td-year {
+  display: flex;
+  width: 30%;
+  flex-wrap: wrap;
+  text-align: left;
+  padding: 1rem;
+}
+
+.td-position {
+  width: 60%;
+  text-align: left;
+  padding: 1rem;
+  font-size: 20px;
+}
+
+.td-company {
+  width: 20%;
+  text-align: left;
+  padding: 1rem;
+  font-size: 20px;
+}
+
+.td-expand {
+  width: 20%;
+  text-align: center;
+  padding: 1rem;
+  font-size: 20px;
+
+}
+
+.expand-btn {
+  width: 40%;
+}
+
+.rotate {
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(45deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+}
+
+.hidden {
+  font-size: 12px;
+  background-color: rgb(200, 200, 200);
+  visibility: hidden;
+  transition: visibility .5s, max-height .5s;
+  max-height: 0;
+  overflow: hidden;
+  padding: 0px 12px;
+  width: 100%;
+  border-left: ridge black;
+  border-right: ridge black;
+  text-align: left;
+}
+
+.hidden-last {
+  border-bottom: ridge black;
+}
+
+.job-description {
+  padding: 16px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.open {
+  visibility: visible;
+  max-height: 130px;
+}
+
+.skills li img {
+
+  height: 1em;
+  width: auto;
+}
+
+.carousel-item img{
+  border-radius: 16px;
+}
