@@ -12,10 +12,21 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   position: relative;
+}
+
+.project h1 {
+  margin-top: 64px;
+}
+
+.project-img {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .initial {
@@ -210,4 +221,8 @@ section.second {
 
 .carousel-item img{
   border-radius: 16px;
+}
+
+.project h1 {
+  font-size: 60px;
 }
