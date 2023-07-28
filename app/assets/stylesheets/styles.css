@@ -70,7 +70,6 @@ h2 {
   font-size: 60px;
 }
 
-
 .carousel {
   width: 50%;
   height: 50%;
@@ -99,7 +98,7 @@ section.second {
   font-size: 60px;
   position: absolute;
   bottom: 10%;
-  right: -45vw;
+  right: -40vw;
 }
 
 .first div h1 {
@@ -121,7 +120,7 @@ section.second {
 #experience-table {
   position: absolute;
   top: 25%;
-  right: -45vw;
+  right: -40vw;
   width: 40vw;
 }
 
@@ -138,14 +137,14 @@ section.second {
 
 .td-year {
   display: flex;
-  width: 30%;
+  width: 40%;
   flex-wrap: wrap;
   text-align: left;
   padding: 1rem;
 }
 
 .td-position {
-  width: 60%;
+  width: 50%;
   text-align: left;
   padding: 1rem;
   font-size: 20px;
@@ -205,7 +204,6 @@ section.second {
 }
 
 .skills li img {
-
   height: 1em;
   width: auto;
 }
