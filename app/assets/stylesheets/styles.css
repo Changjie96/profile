@@ -226,3 +226,120 @@ section.second {
 .project h1 {
   font-size: 60px;
 }
+
+
+@media (max-width: 1260px) {
+  .first div h1 {
+      font-size: 40px;
+  }
+
+  .first div ul {
+      font-size: 32px;
+  }
+  .second div h1 {
+      font-size: 40px;
+  }
+
+  .td-year, .td-position, .td-company, .job-description {
+      padding: 16px;
+      font-size: 12px;
+  }
+
+  .tr {
+      font-size: 16px;
+  }
+
+  .expand-btn {
+      width: 20%
+  }
+
+  .td-expand {
+      padding: unset;
+  }
+
+  .hidden {
+      font-size: 7px;
+  }
+
+  .open {
+      max-height: 150px;
+  }
+}
+
+
+@media (max-width: 960px) {
+  .experience {
+      flex-direction: column;
+  }
+
+  section.first {
+      width: 100%;
+  }
+
+  section.second {
+      width: 100%;
+      height: 50vh;
+      background-color: #C3EDC0;
+  }
+
+  .separator {
+      height: 50vh;
+      border-left: 100vw solid transparent;
+      border-bottom: 10vw solid #C3EDC0;
+  }
+
+  .first div h1 {
+      left: 10vw;
+      top: 5vh;
+      font-size: 40px;
+  }
+
+  .first div ul {
+      top: 12vh;
+      font-size: unset;
+      left: 12vw;
+  }
+
+  .second div h1 {
+      bottom: unset;
+      right: 10vw;
+      font-size: 40px;
+  }
+
+  #experience-table {
+      right: 10vw;
+      width: 80vw;
+      top: 10vh;
+  }
+
+  .td-year, .td-position, .td-company, .job-description {
+      padding: 10px;
+      font-size: 12px;
+  }
+
+  .tr {
+      font-size: 10px;
+  }
+
+  .expand-btn {
+      width: 20%
+  }
+
+  .td-expand {
+      padding: unset;
+  }
+
+  .hidden {
+      font-size: 7px;
+  }
+
+  .contact-lists {
+      justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 700px) {
+  .td-year, .td-position, .td-company, .job-description {
+      font-size: unset;
+  }
+}
